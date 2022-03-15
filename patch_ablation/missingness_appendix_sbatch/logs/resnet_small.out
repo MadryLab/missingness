@@ -1,0 +1,679 @@
+Namespace(arch='resnet18', out_dir='missingness_results/patch_16_0_0_0/resnet18', saliency_map_pkl='/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/missingness_results/saliency_maps/resnet_50_sal_map.pkl', methods=['Saliency_reverse', 'Saliency'], model_path=None, ablation_patch_size=16, filler_values=[0.0, 0.0, 0.0], superpixel=False, skip_random=False, superpixel_pkl=None, image_net_cache_file=None, skip_factor=2, superpixel_type='patches', use_missingness=False)
+length of DS 10000
+/data/theory/robustopt/hadi_shared_results/imagenet_experiments/opensource_models/resnet18_l2_eps0.ckpt
+=> loading checkpoint '/data/theory/robustopt/hadi_shared_results/imagenet_experiments/opensource_models/resnet18_l2_eps0.ckpt'
+=> loaded checkpoint '/data/theory/robustopt/hadi_shared_results/imagenet_experiments/opensource_models/resnet18_l2_eps0.ckpt' (epoch 90)
+Loaded robustness lib model
+CUDA available: True
+Device count: 1
+GeForce RTX 2080 Ti
+deep-gpu-10             Tue Oct  5 00:38:43 2021  460.91.03
+[0] GeForce RTX 2080 Ti | 75'C,  81 % |  7002 / 11019 MB | spark(6999M)
+[1] GeForce RTX 2080 Ti | 77'C,  82 % |  7002 / 11019 MB | spark(6999M)
+[2] GeForce RTX 2080 Ti | 82'C,  82 % |  7002 / 11019 MB | spark(6999M)
+[3] GeForce RTX 2080 Ti | 71'C,  81 % |  7002 / 11019 MB | spark(6999M)
+[4] GeForce RTX 2080 Ti | 51'C,  41 % |  5972 / 11019 MB | saachij(5969M)
+[5] GeForce RTX 2080 Ti | 80'C,  86 % |  7002 / 11019 MB | spark(6999M)
+[6] GeForce RTX 2080 Ti | 75'C,  79 % |  8660 / 11019 MB | saachij(8657M)
+[7] GeForce RTX 2080 Ti | 45'C,   1 % |  1380 / 11019 MB | saachij(1377M)
+Used by pytorch: 0.02 GB / 11.55 GB
+batch 0 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 1 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 2 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 3 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 4 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 5 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 6 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 7 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 8 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 9 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 10 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 11 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 12 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 13 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 14 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 15 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 16 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 17 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 18 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 19 method random
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 0 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 1 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 2 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 3 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 4 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 5 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 6 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 7 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 8 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 9 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 10 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 11 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 12 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 13 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 14 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 15 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 16 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 17 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 18 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 19 method Saliency_reverse
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 0 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 1 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 2 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 3 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 4 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 5 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 6 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 7 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 8 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 9 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 10 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 11 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 12 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 13 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 14 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 15 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 16 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 17 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 18 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+batch 19 method Saliency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180

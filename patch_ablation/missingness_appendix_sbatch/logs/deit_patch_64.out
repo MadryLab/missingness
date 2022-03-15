@@ -1,0 +1,34 @@
+Namespace(arch='deit_small_resnet_aug', out_dir='missingness_results/patch_14_0_0_0/deit_small_resnet_aug', saliency_map_pkl='/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/missingness_results/saliency_maps/resnet_50_sal_map.pkl', methods=['Saliency_reverse', 'Saliency'], model_path=None, ablation_patch_size=14, filler_values=[0.0, 0.0, 0.0], superpixel=False, skip_random=False, superpixel_pkl=None, image_net_cache_file=None, skip_factor=2, no_envelope=False, superpixel_type='patches', use_missingness=True)
+length of DS 10000
+/mnt/nfs/home/hadi/src/missingness/CausalDomainTransfer/run/imagenet/deitsmall_resnetaug/model_best.pth
+torchvision models: 
+ ['alexnet', 'densenet121', 'densenet161', 'densenet169', 'densenet201', 'googlenet', 'inception_v3', 'mnasnet0_5', 'mnasnet0_75', 'mnasnet1_0', 'mnasnet1_3', 'mobilenet_v2', 'mobilenet_v3_large', 'mobilenet_v3_small', 'resnet101', 'resnet152', 'resnet18', 'resnet34', 'resnet50', 'resnext101_32x8d', 'resnext50_32x4d', 'shufflenet_v2_x0_5', 'shufflenet_v2_x1_0', 'shufflenet_v2_x1_5', 'shufflenet_v2_x2_0', 'squeezenet1_0', 'squeezenet1_1', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn', 'wide_resnet101_2', 'wide_resnet50_2']
+customized models: 
+ ['mylinear', 'myvgg', 'myresnet18', 'myresnet50', 'mypreactresnet18', 'mylenet', 'mydensenet121', 'mymobilenet', 'mymobilenet2', 'mydpn92', 'myshufflenet', 'mysenet18', 'mysresnet18', 'mysresnet50']
+Vision Transformer models: 
+ ['vit_small_patch16_224', 'vit_base_patch16_224', 'vit_base_patch16_384', 'vit_base_patch32_384', 'vit_large_patch16_224', 'vit_large_patch16_384', 'vit_large_patch32_384', 'vit_huge_patch16_224', 'vit_huge_patch32_384', 'deit_tiny_patch16_224', 'deit_small_patch16_224', 'deit_base_patch16_224', 'deit_base_patch16_384', 'deit_tiny_patch4_32', 'deit_small_patch4_32', 'deit_base_patch4_32']
+Invariant Vision Transformer models: 
+ ['invariant_vit_small_patch16_224', 'invariant_vit_base_patch16_224']
+==> Building model..
+CUDA available: True
+Device count: 1
+GeForce GTX 1080 Ti
+deep-gpu-2              Thu Sep 30 12:27:34 2021  460.91.03
+[0] GeForce GTX 1080 Ti | 84'C,  95 % |  6501 / 11178 MB | spark(6497M)
+[1] GeForce GTX 1080 Ti | 47'C,   6 % |   919 / 11178 MB | saachij(915M)
+[2] GeForce GTX 1080 Ti | 33'C,   0 % |     1 / 11178 MB |
+[3] GeForce GTX 1080 Ti | 38'C,   0 % |     1 / 11178 MB |
+[4] GeForce GTX 1080 Ti | 35'C,   0 % |     1 / 11178 MB |
+[5] GeForce GTX 1080 Ti | 84'C,  91 % |  7119 / 11178 MB | spark(7115M)
+[6] GeForce GTX 1080 Ti | 87'C,  92 % |  6501 / 11178 MB | spark(6497M)
+[7] GeForce GTX 1080 Ti | 87'C,  92 % |  7263 / 11178 MB | spark(7259M)
+Used by pytorch: 0.02 GB / 11.72 GB
+batch 0 method random
+0
+20
+40
+60
+80
+100
+120
+140

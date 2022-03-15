@@ -1,0 +1,17 @@
+mkdir: cannot create directory ‘missingness_results/patch_14_0_0_0’: File exists
+Traceback (most recent call last):
+  File "/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/run_patch_ablation.py", line 120, in <module>
+    mask_accs, mask_soft_labels, mask_preds, mask_debugs = runner.get_envelope(methods_to_run,
+  File "/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/base_experiments.py", line 125, in get_envelope
+    out = self.net(inp, patch_mask=patch_masks)
+  File "/mnt/nfs/home/saachij/conda_envs/saachi_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "../src/models/vision_transformer.py", line 411, in forward
+    x = self.head(x)
+  File "/mnt/nfs/home/saachij/conda_envs/saachi_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/nfs/home/saachij/conda_envs/saachi_env/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/nfs/home/saachij/conda_envs/saachi_env/lib/python3.9/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA error: CUBLAS_STATUS_EXECUTION_FAILED when calling `cublasSgemm( handle, opa, opb, m, n, k, &alpha, a, lda, b, ldb, &beta, c, ldc)`

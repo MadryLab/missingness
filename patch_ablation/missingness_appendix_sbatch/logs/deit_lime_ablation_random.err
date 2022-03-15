@@ -1,0 +1,125 @@
+RANDOM LIME ORDERING
+length of DS 10000
+/mnt/nfs/home/hadi/src/missingness/CausalDomainTransfer/run/imagenet/deitsmall_resnetaug/model_best.pth
+torchvision models: 
+ ['alexnet', 'densenet121', 'densenet161', 'densenet169', 'densenet201', 'googlenet', 'inception_v3', 'mnasnet0_5', 'mnasnet0_75', 'mnasnet1_0', 'mnasnet1_3', 'mobilenet_v2', 'mobilenet_v3_large', 'mobilenet_v3_small', 'resnet101', 'resnet152', 'resnet18', 'resnet34', 'resnet50', 'resnext101_32x8d', 'resnext50_32x4d', 'shufflenet_v2_x0_5', 'shufflenet_v2_x1_0', 'shufflenet_v2_x1_5', 'shufflenet_v2_x2_0', 'squeezenet1_0', 'squeezenet1_1', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn', 'wide_resnet101_2', 'wide_resnet50_2']
+customized models: 
+ ['mylinear', 'myvgg', 'myresnet18', 'myresnet50', 'mypreactresnet18', 'mylenet', 'mydensenet121', 'mymobilenet', 'mymobilenet2', 'mydpn92', 'myshufflenet', 'mysenet18', 'mysresnet18', 'mysresnet50']
+Vision Transformer models: 
+ ['vit_small_patch16_224', 'vit_base_patch16_224', 'vit_base_patch16_384', 'vit_base_patch32_384', 'vit_large_patch16_224', 'vit_large_patch16_384', 'vit_large_patch32_384', 'vit_huge_patch16_224', 'vit_huge_patch32_384', 'deit_tiny_patch16_224', 'deit_small_patch16_224', 'deit_base_patch16_224', 'deit_base_patch16_384', 'deit_tiny_patch4_32', 'deit_small_patch4_32', 'deit_base_patch4_32']
+Invariant Vision Transformer models: 
+ ['invariant_vit_small_patch16_224', 'invariant_vit_base_patch16_224']
+==> Building model..
+CUDA available: True
+Device count: 1
+GeForce RTX 2080 Ti
+deep-gpu-10             Tue Oct  5 10:59:08 2021  460.91.03
+[0] GeForce RTX 2080 Ti | 48'C,   0 % |  1660 / 11019 MB | saachij(1657M)
+[1] GeForce RTX 2080 Ti | 48'C,   3 % |  1336 / 11019 MB | saachij(1333M)
+[2] GeForce RTX 2080 Ti | 82'C,  82 % |  7002 / 11019 MB | spark(6999M)
+[3] GeForce RTX 2080 Ti | 70'C,  74 % |  7002 / 11019 MB | spark(6999M)
+[4] GeForce RTX 2080 Ti | 70'C,  82 % |  7002 / 11019 MB | spark(6999M)
+[5] GeForce RTX 2080 Ti | 79'C,  85 % |  7002 / 11019 MB | spark(6999M)
+[6] GeForce RTX 2080 Ti | 79'C,  82 % |  7002 / 11019 MB | spark(6999M)
+[7] GeForce RTX 2080 Ti | 49'C,   0 % |  1660 / 11019 MB | saachij(1657M)
+Used by pytorch: 0.02 GB / 11.55 GB
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+1800
+1900
+2000
+2100
+2200
+2300
+2400
+2500
+2600
+2700
+2800
+2900
+3000
+3100
+3200
+3300
+3400
+3500
+3600
+3700
+3800
+3900
+4000
+4100
+4200
+4300
+4400
+4500
+4600
+4700
+4800
+4900
+5000
+5100
+5200
+5300
+5400
+5500
+5600
+5700
+5800
+5900
+6000
+6100
+6200
+6300
+6400
+6500
+6600
+6700
+6800
+6900
+7000
+7100
+7200
+7300
+7400
+7500
+7600
+7700
+7800
+7900
+8000
+8100
+8200
+8300
+8400
+8500
+8600
+8700
+8800
+8900
+9000
+9100
+9200
+9300
+9400
+9500
+9600
+9700
+9800
+9900

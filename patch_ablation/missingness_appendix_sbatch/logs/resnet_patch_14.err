@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/run_patch_ablation.py", line 62, in <module>
+    pm = PatchMaster(ARCH, patch_size=args.ablation_patch_size)
+  File "/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/patch_ablation_utils.py", line 84, in __init__
+    self.patch_indexer = self.get_patch_indexer()
+  File "/mnt/nfs/home/saachij/src/CausalDomainTransfer/patch_ablation/patch_ablation_utils.py", line 88, in get_patch_indexer
+    chunk1 = torch.stack(torch.chunk(index_arr, self.num_patches, dim=0), dim=0)
+RuntimeError: stack expects each tensor to be equal size, but got [75, 224] at entry 0 and [74, 224] at entry 2
