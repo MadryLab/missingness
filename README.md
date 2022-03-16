@@ -43,6 +43,8 @@ python run_lime_ablation.py --model-name resnet50 --out-pkl OUT_PKL.pkl --lime-p
 python run_lime_ablation.py --model-name deit_small_resnet_aug_missingness --out-pkl OUT_PKL.pkl --lime-pkl LIME_PKL --ablation-patch-size 16 --num-features 50 --feature-skip 2 --superpixel-type patches
 ```
 
+## Download our Models and Data
+
 We further have the following files on dropbox since they were too large:
 
 - [Superpixels](https://www.dropbox.com/s/1y2gqdt2yp685yd/slic_superpixel.npy?dl=0)
@@ -54,3 +56,8 @@ We further have the following files on dropbox since they were too large:
 - [Missingness Results](https://www.dropbox.com/s/tpizqwgf9ph5d09/missingness_results.zip?dl=0)
 
 
+## Have further questions?
+Feel free to raise issues or contact us!
+
+- [Saachi Jain](https://twitter.com/saachi_jain_)
+- [Hadi Salman](https://twitter.com/hadisalmanX)
