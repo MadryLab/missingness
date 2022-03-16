@@ -15,10 +15,10 @@ This repository contains the code of our ICLR 2022 paper.
     } 
 ```
 
-All scripts to run the experiments in the paper are in `patch_ablation.` 
+All scripts to run the experiments in the paper are in `patch_ablation/`. 
 
 ## Patch Ablation Experiments (Section 3)
-To generate the patch ablation experiments (section 3), run the script `run_patch_ablation.py`. For example, to run the basic patch ablation experiments for a ResNet50:
+To generate the patch ablation experiments, run the script `run_patch_ablation.py`. For example, to run the basic patch ablation experiments for a ResNet50:
 ```
 python run_patch_ablation.py --arch resnet50 --out-dir OUT_DIR --methods Saliency_reverse --methods Saliency --ablation-patch-size 16 --saliency-map-pkl model_checkpoints/resnet_50_sal_map.pkl --filler-values 0 0 0 --skip-factor 2
 ```
