@@ -47,13 +47,13 @@ python run_lime_ablation.py --model-name deit_small_resnet_aug_missingness --out
 
 We further have the following files on dropbox since they were too large:
 
-- [Superpixels](https://www.dropbox.com/s/1y2gqdt2yp685yd/slic_superpixel.npy?dl=0)
+- [Superpixels](https://www.dropbox.com/s/1y2gqdt2yp685yd/slic_superpixel.npy?dl=0): The SLIC superpixel segmentation maps for experiments in Appendix C.6 and D.2
 
-- [ResNet-50 Saliency Map](https://www.dropbox.com/s/dwnsmso8xw03z9r/resnet_50_sal_map.pkl?dl=0)
+- [ResNet-50 Saliency Map](https://www.dropbox.com/s/dwnsmso8xw03z9r/resnet_50_sal_map.pkl?dl=0): The saliency map used to determine the order of patches removed in Section 3
 
-- [Model Checkpoints](https://www.dropbox.com/s/httwdzvabivgm7i/model_checkpoints.zip?dl=0)
+- [Model Checkpoints](https://www.dropbox.com/s/httwdzvabivgm7i/model_checkpoints.zip?dl=0): The checkpoints for models used in this paper
 
-- [Missingness Results](https://www.dropbox.com/s/tpizqwgf9ph5d09/missingness_results.zip?dl=0)
+- [Missingness Results](https://www.dropbox.com/s/tpizqwgf9ph5d09/missingness_results.zip?dl=0): The data from the saved results of experiments in the paper.
 
 
 ## Have further questions?
