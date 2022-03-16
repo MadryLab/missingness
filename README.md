@@ -1,6 +1,6 @@
 # Missingness Bias in Model Debugging.
 
-This repository contains the code of our paper. 
+This repository contains the code of our ICLR 2022 paper. 
 
 **Missingness Bias in Model Debugging** </br>
 *Saachi Jain\*, Hadi Salman\*, Eric Wong, Pengchuan Zhang, Vibhab Vineet, Sai Vemprala, Aleksander Madry*
