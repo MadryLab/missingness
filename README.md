@@ -25,7 +25,6 @@ python run_patch_ablation.py --arch resnet50 --out-dir OUT_DIR --methods Salienc
 and for a ViT-S:
 ```
 python run_patch_ablation.py --arch deit_small_resnet_aug --out-dir OUT_DIR --methods Saliency_reverse --methods Saliency --ablation-patch-size 16 --saliency-map-pkl  model_checkpoints/resnet_50_sal_map.pkl --filler-values 0 0 0 --skip-factor 2 --use-missingness
-
 ```
 ## Generate LIME for a given image (Section 4)
 Run `run_lime.py` to generate LIME explanations for a given image (using either blacking out or dropping tokens for ViTs). Example:
